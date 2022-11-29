@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+         <!--selector{
+                property : value ;
+            }
+                -->
+                <!--Internal CSS-->
+        <title>cascading</title>
+           
+            <style>
+              /*  h1{
+                    color: black;
+                    font-size: 100px;
+                    text-transform: uppercase;
+                }
+                h2{
+                    color: blue;
+                    font-size: 100px;
+                    text-transform: uppercase;
+                }
+                */
+                /*
+                h1,h2{
+                    color: blue;
+                    font-size: 100px;
+                    text-transform: uppercase;
+                }
+                .Classselector{
+                    color: gray;
+                    font-size: 200px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-decoration: underline;
+                    background-color: paleturquoise;
+                }
+                #header{
+                     color: red;
+                     font-size: 100px;
+                }
+                h3{
+                    color: aqua;
+                }*/
+            </style>
+            
+            <link rel="stylesheet" href="cascading.css">
+        <!--<h2>cascading stylesheet</h2> css - size:200px - lowercase
+             <h3> cascading stylesheet</h3> css - color - lowercase-->
+
+             <!--different selector
+                 1.element selector  h1
+                 2.Grouping selector h1,h2
+                 3.Class selector
+                 4.Id selector -->
+    </head>
+          <body>
+            <!--reusability-->
+              <h1>cascading stylesheet</h1>
+              <h2>Grouping selector</h2>
+              <h1 class="Classselector">Class selector</h1><!--h1 h1 class selector change color-->
+              <h3 class="Classselector" id="header">Id selector</h3><!--id , class , element selector-->
+              <!--class selector is the highest peiority-->
+
+              <!--
+                Types of CSS or how many ways to erite a CSS
+                1.Internal CSS
+                2.External CSS
+                3.Inline CSS  --there is a limitations 
+                  eg : <h1 style = "color":red"></h1>
+
+                   CSS Box Model
+                   1.morgin
+                   2.
+                   3.padding
+              -->
+          </body>
+</html>
