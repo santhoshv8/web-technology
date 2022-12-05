@@ -1,0 +1,22 @@
+/* top, bottom , right , left */
+.static{
+    position: static;
+    left: 100px;
+}
+.relative{
+    right: -200px;
+    top: 100px;
+    position: relative;
+    left: 100px; 
+    color: blue;
+}
+/*.relative{
+    top: -240;
+    right: -400;
+    position: relative;
+}*/
+.absolute{
+    top: 20px;
+    left: 100px;
+    position: absolute;
+}

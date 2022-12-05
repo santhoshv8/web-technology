@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+body{
+    margin-left: 20px;
+}
+form{
+    background-color: aliceblue;
+    margin: auto;
+    width: 600px;
+    border: 2px solid black;
+    padding: 30px;
+}
+.education , .course , .project , .internship , .declaration{
+    margin: 30px;
+}
+

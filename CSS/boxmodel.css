@@ -1,0 +1,53 @@
+.box{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    margin: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+.rect{
+    border: 2px solid green;
+    height: 80px;
+    width: 150px; 
+}
+.rect1{
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+}
+.rect2{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    margin: 60px;
+}
+.rect3{
+    border: 2px solid rebeccapurple;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.rect4{
+    border: 2px solid yellowgreen;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+body{
+    background-image: url('C:\\Users\\DELL\\Downloads\\th.jfif');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  /*
+  CSS combinator
+
+  selector -
+  element - selector 
+
+  1.Descendant Selector
+  2.child selector
+  3.Ajeacent Sibiling Selector
+  4.
+  */

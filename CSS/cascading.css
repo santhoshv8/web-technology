@@ -1,0 +1,19 @@
+h1,h2{
+    color: blue;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.Classselector{
+    color: gray;
+    font-size: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    background-color: paleturquoise;
+}
+#header{
+     color: red;
+     font-size: 100px;
+}
+h3{
+    color: aqua;
+}

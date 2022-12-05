@@ -1,0 +1,61 @@
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    color: aliceblue;
+}
+.middleleft{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    color: aliceblue;
+}
+.topcenter{
+    position: absolute;
+    top: 0;
+    left: 390px;
+    color: aliceblue;
+}
+.topleft1{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    color: aliceblue;
+}
+.middleleft1{
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    color: aliceblue;
+}
+.topcenter1{
+    position: absolute;
+    bottom: 10px;
+    left: 390px;
+    color: aliceblue;
+}
+.imageparent{
+    position: relative;
+}
+body {
+    margin: 0;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+ul{
+    list-style-type: circle;
+    background-color: green
+}
+li{
+    padding: 8px;
+    margin: 0;
+}

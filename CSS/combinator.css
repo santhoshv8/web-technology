@@ -1,0 +1,27 @@
+/* Descendant Selectot */
+div p {
+    color: darkblue;
+}
+/* Child Selector */
+div > p {
+    color: red;
+}
+/* Adjecent Sibling Selector */
+div + p{
+    color: aqua;
+}
+/* General Sibling Selector */
+div ~ p{
+  /*  color: rgb(255, 0, 149); */
+  color: #113c44;
+}
+
+/* color property */
+body{
+    background-color: blue;
+}
+@media screen and (min-width: 480px){
+    body{
+        background-color: aqua;
+    }
+}
